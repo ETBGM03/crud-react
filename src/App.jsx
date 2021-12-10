@@ -24,9 +24,9 @@ const App = () => {
       <hr />
       <Router>
         <Routes>
-          <Route path="/" element={<CrearUsuario />} />
-          <Route path="/preguntas" element={<Juego />} />
-          <Route path="/posiciones" element={<Posiciones />} />
+          <Route exact path="/" element={<CrearUsuario />} />
+          <Route exact path="/preguntas" element={<Juego />} />
+          <Route exact path="/posiciones" element={<Posiciones />} />
         </Routes>
       </Router>
       ,

@@ -17,6 +17,7 @@ const CrearUsuario = () => {
       [e.target.name]: e.target.value,
     });
   };
+
   const enviarValoresForm = async (e) => {
     nombre === "" || apellido === "" || identificacion === 0
       ? alert("error al enviar datos")
@@ -42,8 +43,9 @@ const CrearUsuario = () => {
       identificacion: 0,
     });
     e.target.reset();
-    usurios ?? windows.location.replace("/preguntas");
   };
+
+  const redireccionadion = () => { window.location.replace("http://localhost:3000/preguntas") };
 
   return (
     <div className="container-form">
@@ -78,6 +80,7 @@ const CrearUsuario = () => {
         />
         <div>
           <button type="submit">Iniciar Juego</button>
+          <button type="button" onClick={redireccionadion}>Probado</button>
         </div>
         {/* <BotonCrearUsuario /> */}
       </form>
