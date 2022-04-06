@@ -1,0 +1,15 @@
+.form--button{
+  background-color: #13d6e4;
+  border-radius: .5rem;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  text-align: center;
+}
+.form--button:hover{
+  background-color: #023d58;
+  transition: ease .5s;
+}

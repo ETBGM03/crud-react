@@ -1,0 +1,9 @@
+.header{
+  height: 5rem;
+}
+.header--h2{
+  font-size: 3rem;
+  color: #fff;
+  text-align: center;
+  margin: 1.3rem 0;
+}
