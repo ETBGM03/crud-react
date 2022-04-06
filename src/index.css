@@ -4,10 +4,7 @@
   padding: 0;
 }
 body {
-  /* display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(12, 2fr); */
   font-family: "Roboto", sans-serif;
   font-size: 62.5%;
-  background-color: #121f3d;
+  background-color: #191c32;
 }

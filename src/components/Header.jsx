@@ -1,19 +1,11 @@
-import React from "react";
+import './../css/Header.css'
 
 const Header = () => {
   return (
-    <header style={{ display: "flex", justifyContent: "center" }}>
-      <h2
-        style={{
-          fontSize: "2rem",
-          margin: "1rem",
-          color: "#ffffff",
-        }}
-      >
-        BANCO DE PREGUNTAS
-      </h2>
+    <header className="header">
+      <h2 className="header--h2">Crear Lista de Tareas</h2>
     </header>
-  );
-};
+  )
+}
 
-export { Header };
+export {Header}

@@ -1,32 +1,9 @@
 import React, { useState } from "react";
-import { CrearUsuario } from "./view/CrearUsuario";
-import { Juego } from "./view/Juego";
-import { Posiciones } from "./view/Posiciones";
+import { AppUI } from "./components/AppUI";
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Header } from "./components/Header";
+
 const App = () => {
-  // const [usuarios, setUsuarios] = useState({});
-  return (
-    <div
-      style={{
-        width: "100vw",
-        height: "100vh",
-        overflowX: "hidden",
-      }}
-    >
-      {/* <Header /> */}
-      <hr />
-      <Router>
-        <Routes>
-          <Route exact path="/" element={<CrearUsuario />} />
-          <Route exact path="/ronda/:id" element={<Juego />} />
-          <Route exact path="/posiciones" element={<Posiciones />} />
-        </Routes>
-      </Router>
-      ,
-    </div>
-  );
+  return <AppUI />;
 };
 
 export { App };
